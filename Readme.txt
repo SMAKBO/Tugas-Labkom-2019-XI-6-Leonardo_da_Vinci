@@ -1,0 +1,7 @@
+Nama Anggota :
+1. Bintang Fajar Mauludin
+2. Intan Nuri Husna
+3. Muhammad Fakhrii Baihaqi
+4. Putri Yulianti
+5. Salwa Zahira
+6. Sulkhan Maulana

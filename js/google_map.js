@@ -33,7 +33,7 @@ function init() {
     var addresses = ['Brooklyn'];
 
     for (var x = 0; x < addresses.length; x++) {
-        $.getJSON('https://www.google.com/maps/place/SMAK+Bogor/@-6.6013778,106.8105549,17z/data=!4m5!3m4!1s0x2e69c5d9456917f3:0x64f2a956ad114dd1!8m2!3d-6.6013781!4d106.8127439'&sensor=false', null , function (data) {
+        $.getJSON('http://maps.googleapis.com/maps/api/geocode/json?address='+address[x]+'&sensor=false', null , function (data) {
             var p = data.results[0].geometry.location
             var latlng = new google.maps.LatLng(p.lat, p.lng);
             new google.maps.Marker({

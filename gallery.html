@@ -128,14 +128,46 @@
 						<h2>LOOK OUR GALLERY</h2>
 						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
 					</div>
-<!-- Overlay effect when opening sidebar on small screens -->
- <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+<style>
+* {
+  box-sizing: border-box;
+}
 
-<!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:300px">
+body {
+  margin: 0;
+  font-family: Arial;
+}
 
-  <!-- Push down content on small screens --> 
-  <div class="w3-hide-large" style="margin-top:83px"></div>
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Image Grid</h1>
+</div>
+
   
   <!-- Photo grid -->
 <div class="row"> 
